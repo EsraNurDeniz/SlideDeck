@@ -1,0 +1,24 @@
+
+<div style="text-align: center">
+<h1>SLIDES</h1>
+<br>
+<br>
+<div class="container ">
+  <div class="row">
+    <div class="col-sm-2">
+      <button type="button" id="prevButton" class="btn btn-info slideDeckButtons" ng-click="$ctrl.prev(slide)">Prev</button>
+    </div>
+    <div class="col-sm-8">
+      <div ng-transclude></div>
+    </div>
+    <div class="col-sm-2">
+      <button type="button" id="nextButton" class="btn btn-info slideDeckButtons" ng-click="$ctrl.next(slide)">Next</button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <button type="button" id="autoButton" class="btn btn-warning slideDeckAutoButton" ng-click="$ctrl.playAuto()">Auto Play</button>
+  </div>
+</div>
+</div>

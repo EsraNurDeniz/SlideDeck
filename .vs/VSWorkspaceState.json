@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\core",
+    "\\app\\dummy-parent",
+    "\\app\\phone-detail",
+    "\\app\\phone-list"
+  ],
+  "SelectedNode": "\\app\\dummy-parent\\dummy-child.template.html",
+  "PreviewInSolutionExplorer": false
+}

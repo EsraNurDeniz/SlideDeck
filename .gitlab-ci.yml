@@ -1,0 +1,15 @@
+default:
+  image: weltn24/up-docker-node-chrome-headless
+
+stages:
+  - build
+
+
+Build:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+    - npm test
+  tags:
+   - docker-linux-runner
