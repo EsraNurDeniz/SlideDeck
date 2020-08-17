@@ -7,34 +7,29 @@
     "type": "git",
     "url": "git+https://github.com/angular/angular-phonecat.git"
   },
-  "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.10.5",
     "angular": "1.8.x",
     "angular-animate": "1.8.x",
     "angular-resource": "1.8.x",
     "angular-route": "1.8.x",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.1.0",
-    "bootstrap": "^3.4.1",
-    "css-loader": "^4.2.0",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "html-loader": "^1.1.0",
-    "htmlloader": "^1.0.3",
+    "bootstrap": "^4.5.0",
     "jquery": "^3.3.1",
-    "popper.js": "^1.16.1",
-    "style-loader": "^1.2.1",
-    "tether": "^1.4.7"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.11.0",
     "angular-mocks": "1.8.x",
+    "babel-loader": "^8.1.0",
     "babel-plugin-angularjs-annotate": "^0.10.0",
+    "commitizen": "^4.1.2",
     "cpx": "^1.5.0",
+    "css-loader": "^4.2.0",
+    "cz-conventional-changelog": "^3.2.0",
     "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-google": "^0.14.0",
     "eslint-plugin-import": "^2.22.0",
+    "html-loader": "^1.1.0",
     "http-server": "^0.11.1",
     "jasmine": "^3.6.1",
     "jasmine-core": "^3.6.0",
@@ -45,6 +40,7 @@
     "karma-webpack": "^4.0.2",
     "ng-inject": "^1.0.1",
     "protractor": "^5.4.4",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
@@ -65,10 +61,11 @@
     "test": "karma start --browsers ChromeHeadless --colors true --autoWatch false --singleRun true",
     "build": "webpack"
   },
-  "bugs": {
-    "url": "https://github.com/angular/angular-phonecat/issues"
-  },
-  "homepage": "https://github.com/angular/angular-phonecat#readme",
   "keywords": [],
-  "author": ""
+  "author": "Esra Nur Deniz",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
